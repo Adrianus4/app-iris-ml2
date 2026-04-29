@@ -5,11 +5,11 @@ import numpy as np
 
 import psycopg2
 # Fetch variables
-USER = "" #os.getenv("user")
-PASSWORD = ""# os.getenv("password")
-HOST = "" #os.getenv("host")
-PORT = "" #os.getenv("port")
-DBNAME = "" #os.getenv("dbname")
+USER = "postgres.yeoatwmlxgfygafwxwwm" #os.getenv("user")
+PASSWORD = "ADR123adr123"# os.getenv("password")
+HOST = "aws-1-us-east-1.pooler.supabase.com" #os.getenv("host")
+PORT = "6543" #os.getenv("port")
+DBNAME = "postgres" #os.getenv("dbname")
 
 # Configuración de la página
 st.set_page_config(page_title="Predictor de Iris", page_icon="🌸")
